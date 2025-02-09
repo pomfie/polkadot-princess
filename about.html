@@ -1,0 +1,286 @@
+<html>
+   <head>
+      <title>Polkadot Princess</title>
+      <link rel="shortcut icon" href="https://files.catbox.moe/xamrvp.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Get familiar with me!">
+      <meta name="keywords" content="artemisia, red velvet, red, velvet, lace, neocities, polkadot princess" />
+      <meta property="og:title" content="🞄 Princess of Polkadots 🞄" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="https://files.catbox.moe/7q3kuj.png" />
+      <meta property="og:description" content="Some stuff about me!" />
+      <meta name="theme-color" content="#FF4A4A"/>
+      <link rel="apple-touch-icon" href="https://files.catbox.moe/xamrvp.png">
+      <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <style>
+         html {
+         text-size-adjust: 100%;
+         -webkit-text-size-adjust: 100%;
+         -moz-text-size-adjust: 100%;
+         -ms-text-size-adjust: 100%;
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         }
+         body {
+         animation: animslide 1000s linear infinite;
+         background-image: url('https://files.catbox.moe/j3845a.png');
+         background-color: #A30C3C;
+         background-size: 30%;
+         background-repeat: repeat;
+         cursor: url('https://files.catbox.moe/di2489.png'), progress;
+         }
+         a:hover {
+         cursor: url('https://files.catbox.moe/5dc52j.png'), progress;
+         text-shadow: 0px 0px 2px;
+         transition: 1s;
+         letter-spacing: -1px 
+         }
+         a {
+         text-decoration: none;
+         text-shadow: 0px 0px 1px;
+         color: #ff114d;
+         letter-spacing: -1.4px;
+         transition: 1s;
+         }
+         ::-webkit-scrollbar {
+         width: 4px;
+         height: 4px;
+         }
+         ::-webkit-scrollbar-track {
+         color: transparent;
+         background: transparent;
+         border-radius: 10px;
+         height: 4px;
+         }
+         ::-webkit-scrollbar-thumb {
+         background: #e00029;
+         border: 1px dotted #870719;
+         border-radius: 7px;
+         height: 4px;
+         }
+         #all {
+         animation: fadein 2s ease-in;
+         position: absolute;
+         }
+         #txt {
+         color: #870719;
+         font-size: 15px;
+         letter-spacing: -1.4px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         #bow {
+         position: absolute;
+         z-index: 4;
+         width: 160px;
+         left: 388px;
+         top: 30px;
+         }
+         #artemisia {
+         position: absolute;
+         z-index: 4;
+         width: 200px;
+         left: 554px;
+         top: 60px;
+         }
+         #laceandbuttons {
+         position: relative;
+         z-index: 1;
+         top: 30px;
+         width: 600px;
+         left: 360px;
+         height: auto;
+         }
+         #header {
+         position: absolute;
+         z-index: 3;
+         width: 228px;
+         height: 50px;
+         font-size: 30px;
+         padding: 0px;
+         text-align: center;
+         left: 486px;
+         top: 152px;
+         letter-spacing: 2px;
+         color: #ed0020;
+         font-family: 'Sour Gummy';
+         }
+         #container {
+         position: absolute;
+         z-index: 2;
+         left: 415px;
+         width: 350px;
+         height: 230px;
+         bottom: 56px;
+         overflow-x: hidden;
+         overflow-y: auto;
+         padding-top: 0;
+         padding: 10px;
+         letter-spacing: 2px;
+         line-height: 20px;
+         text-align: center;
+         -webkit-mask-image: linear-gradient(to bottom, 
+         rgba(0,0,0,0) 0%,    /* Top blur starts */
+         rgba(0,0,0,1) 15%,   /* Fully visible area */
+         rgba(0,0,0,1) 85%,   /* Fully visible area */
+         rgba(0,0,0,0) 100%   /* Bottom blur starts */
+         );
+         mask-image: linear-gradient(to bottom, 
+         rgba(0,0,0,0) 0%,    
+         rgba(0,0,0,1) 15%,   
+         rgba(0,0,0,1) 85%,   
+         rgba(0,0,0,0) 100%   
+         );
+         }
+         #boundaries {
+         position: absolute;
+         z-index: 2;
+         font-size: 20px;
+         width: 50px;
+         background-color: white;
+         height: auto;
+         text-align: center;
+         left: 842px;
+         bottom: 305px;
+         }
+         #about {
+         position: absolute;
+         z-index: 2;
+         font-size: 20px;
+         width: 50px;
+         background-color: white;
+         height: auto;
+         text-align: center;
+         left: 870px;
+         bottom: 142px;
+         }
+         ::selection {
+         color: #ff003c;
+         text-shadow: 0px 0px 2px;
+         text-decoration: 1px underline dotted;
+         }
+         ::-moz-selection {
+         color: #ff003c;
+         text-shadow: 0px 0px 2px;
+         text-decoration: 1px underline dotted;
+         }
+         .fadein {
+         position: absolute;
+         z-index: 5;
+         animation: fadein 5s;
+         visibility: hidden;
+         -webkit-animation: fadein 5s;
+         -moz-animation: fadein 5s;
+         -o-animation: fadein 5s;
+         }
+         @keyframes fadein {
+         0% { visibility: visible; opacity: 0; filter: blur(2px); }
+         100% { visibility: visible; opacity: 1; filter: blur(0px); }
+         }
+         @-moz-keyframes fadein {
+         0% { visibility: visible; opacity: 0; filter: blur(2px); }
+         100% { visibility: visible; opacity: 1; filter: blur(0px); }
+         }
+         @-o-keyframes fadein {
+         0% { visibility: visible; opacity: 0; filter: blur(2px); }
+         100% { visibility: visible; opacity: 1; filter: blur(0px); }
+         }
+         @keyframes animslide {
+         0% {
+         background-position: 0 0;
+         }
+         100% {
+         background-position: 5000px -5000px;
+         }
+         }
+      </style>
+      <script>
+         document.querySelector('.scroll-container').style.overflowY = "hidden";
+         setTimeout(() => {
+             document.querySelector('.scroll-container').style.overflowY = "auto";
+         }, 4);
+         
+      </script>
+      <script>
+         var b = document.body;
+         var imgurl = "https://files.catbox.moe/f4jnhs.png";
+         var size = [10, 20];
+         function rand(min, max)
+         {
+         return Math.floor(Math.random() * (max - min + 1) + min)
+         }
+         function getSize()
+         {
+         return rand(size[0], size[1]);
+         }
+         function lerp(a,b,f)
+         {
+         return (b-a)*f+a;
+         }
+         function heart(x,y)
+         {
+         var s = getSize();
+         x -= s/2;
+         y -= s/2;
+         x = Math.floor(x) + rand(-5, 5);
+         y = Math.floor(y) + rand(-5, 5);
+         var fx = x + rand(-40, 40);
+         var fy = y + rand(-40, 40);
+         var i = document.createElement("img");
+         i.src = imgurl;
+         i.style = `pointer-events: none; position: fixed; width: ${s}px; left: ${x}px; top: ${y}px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; z-index: 1000000;`;
+         b.appendChild(i);
+         var f = 0;
+         var interval;
+         interval = setInterval(function() {
+         var _x = Math.floor(lerp(x, fx, f));
+         var _y = Math.floor(lerp(y, fy, f));
+         i.style = `pointer-events: none; position: fixed; width: ${s}px; left: ${_x}px; top: ${_y}px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; z-index: 1000000;`;
+         i.style.opacity = 1-f;
+         f += 0.01;
+         if (f > 1)
+         {
+         clearInterval(interval);
+         b.removeChild(i);
+         }
+         }, 10);
+         }
+         function bro(x,y)
+         {
+         for (var i = 0; i < 5; i++)
+         {
+         heart(x,y);
+         }
+         }
+         b.addEventListener("click", function(event){
+         var x = event.clientX;
+         var y = event.clientY;
+         bro(x,y);
+         });
+           
+      </script>
+   </head>
+   <body ondragstart="return false">
+      <div id="all">
+         <img id="bow" src="https://files.catbox.moe/lg2s3w.png"><img id="artemisia" src="https://files.catbox.moe/c5opno.png">
+         <img id="laceandbuttons" src="https://files.catbox.moe/19x5ad.png">
+         <div id="boundaries"><a href="boundaries.html">Boundaries</a></div>
+         <div id="about"><a href="index.html">Home</a></div>
+         <div id="header">About Me</div>
+         <div id="container">
+            <p id="txt">Typology enthusiast 🞄 Hyperfeminine 🞄 Art history nerd
+               <br><img style="width: 270px; height: auto; margin: 15px;" src="https://files.catbox.moe/7q3kuj.png"><br>
+               <font style="letter-spacing: 1px; color:#b90b22; font-size: 13px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+               ENFP 2w3 sxノsp269 ( IEE ) EFVL<br>Sanguine-Phlegmatic, Chaotic Neutral 
+               </font>
+            </p>
+            <font style="letter-spacing: 1px; color:#b90b22; font-size: 13px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <b>Favorite medias:</b> Oxenfree, Kagerou Project, Voltron: Legendary Defender, Warriors, Vocaloid, Arcane, League of Legends, 
+            Wolfwalkers & Song of the Sea, Minecraft: Story Mode, Hades by Supergiant Games, Blood of Zeus, Ninjago, Alien Stage<br><br>
+            <b>Favorite artists:</b> <em>Glass Animals</em>, Two Door Cinema Club, Mitski, Laufey, Florence & The Machine, Kikuo, Sea Oleena,
+            Kyary Pamyu Pamyu, Ichiko Aoba, The Crane Wives, Mystery Skulls, Elita
+            </font>
+         </div>
+      </div>
+   </body>
+</html>
